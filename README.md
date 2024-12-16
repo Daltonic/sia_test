@@ -18,8 +18,8 @@ Before you start, make sure you have the following installed on your system:
 First, clone the project repository to your local machine. If you haven’t already, open a terminal and run:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Daltonic/sia_test
+cd sia_test
 ```
 
 Or simply download the project files as a ZIP and extract them.
@@ -113,6 +113,7 @@ The project uses **SQLite** for data storage. A file named `booksDB.sqlite` will
 
 - **Port Conflict**: If port `3000` is already in use, modify the `PORT` variable in `app.js`.
 - **Dependency Issues**: Run `npm install` again to ensure all dependencies are installed.
+- **API Documentation**: Visit [here](https://documenter.getpostman.com/view/3187120/2sAYHzHP92#43ae0dff-9670-4ee9-ae8c-d393c3b27ad8) to understand the API integration.
 
 ---
 
